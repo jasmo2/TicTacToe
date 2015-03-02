@@ -23,95 +23,122 @@
                                     <constraint firstAttribute="height" constant="350" id="X6y-SJ-VqX"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRO-T1-ZaU">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRO-T1-ZaU">
                                 <rect key="frame" x="16" y="133" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="EPX-S6-hyb"/>
                                     <constraint firstAttribute="width" constant="70" id="a28-fJ-x7B"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cxs-vW-o7U"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OA-1J-DY5">
-                                <rect key="frame" x="125" y="133" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="NJu-kj-mlT"/>
-                                    <constraint firstAttribute="width" constant="70" id="bro-yO-da0"/>
-                                </constraints>
-                                <state key="normal" image="cross.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npB-K9-rUu">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npB-K9-rUu">
                                 <rect key="frame" x="228" y="133" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="DAh-pI-Wod"/>
                                     <constraint firstAttribute="width" constant="70" id="cab-wP-pi1"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6AK-ne-mni"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAz-nG-9CM">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAz-nG-9CM">
                                 <rect key="frame" x="234" y="249" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="ap0-qA-cbp"/>
                                     <constraint firstAttribute="width" constant="70" id="xuO-1N-2dL"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VZe-UG-Krj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9U-vR-mhy">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9U-vR-mhy">
                                 <rect key="frame" x="125" y="249" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="3cj-0h-YVr"/>
                                     <constraint firstAttribute="width" constant="70" id="TUd-fr-axH"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dh7-yt-l6I"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAv-U7-okU">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAv-U7-okU">
                                 <rect key="frame" x="16" y="249" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="orb-02-gR6"/>
                                     <constraint firstAttribute="height" constant="70" id="wZW-Zh-Xg0"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MCo-WA-7dT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-vg-9EQ">
-                                <rect key="frame" x="16" y="364" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="m2p-Kf-5Kt"/>
-                                    <constraint firstAttribute="width" constant="70" id="qjw-7a-voe"/>
-                                </constraints>
-                                <state key="normal" image="cross.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYD-vK-jHy">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYD-vK-jHy">
                                 <rect key="frame" x="125" y="364" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="IfO-O3-U4p"/>
                                     <constraint firstAttribute="width" constant="70" id="spz-Uy-oue"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r2c-vC-rtQ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEn-j3-6oJ">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEn-j3-6oJ">
                                 <rect key="frame" x="228" y="364" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="Azx-Dd-C7L"/>
                                     <constraint firstAttribute="height" constant="70" id="FD4-Tw-VRP"/>
                                 </constraints>
-                                <state key="normal" image="cross.png">
+                                <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OLI-9i-JbY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OA-1J-DY5">
+                                <rect key="frame" x="125" y="133" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="NJu-kj-mlT"/>
+                                    <constraint firstAttribute="width" constant="70" id="bro-yO-da0"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dGn-PQ-7MC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-vg-9EQ">
+                                <rect key="frame" x="16" y="364" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="m2p-Kf-5Kt"/>
+                                    <constraint firstAttribute="width" constant="70" id="qjw-7a-voe"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gameLogic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i7r-hc-dV3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -140,6 +167,9 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="button1_1" destination="vRO-T1-ZaU" id="8Wm-VY-1OU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,6 +178,5 @@
     </scenes>
     <resources>
         <image name="board.png" width="744" height="783"/>
-        <image name="cross.png" width="214" height="214"/>
     </resources>
 </document>
